@@ -1,0 +1,56 @@
+{
+	"name": "coc-rj-kompendia",
+	"title": "Robertovo CoC kompendium",
+	"description": "",
+	"author": "rjcz",
+	"version": "0.0.1",
+	"minimumCoreVersion": "0.6.0",
+	"compatibleCoreVersion": "0.8.9",
+	"url": "https://www.robertjunek.cz/coc/",
+	"manifest": "https://www.robertjunek.cz/coc/module.json",
+	"download": "https://www.robertjunek.cz/coc/coc-rj-kompendia.zip",
+	"packs": [
+		{
+			"name": "coc-rj-kompendia-actors",
+			"label": "NPCčka",
+			"system": "CoC7",
+			"path": "./packs/coc-rj-kompendia_actors.db",
+			"entity": "Actor"
+		},
+		{
+			"name": "coc-rj-kompendia-monsters",
+			"label": "Monstra",
+			"system": "CoC7",
+			"path": "./packs/coc-rj-kompendia_monsters.db",
+			"entity": "Actor"
+		},
+		{
+			"name": "coc-rj-kompendia-items",
+			"label": "Předměty",
+			"system": "CoC7",
+			"path": "./packs/coc-rj-kompendia_items.db",
+			"entity": "Item"
+		},
+		{
+			"name": "coc-rj-kompendia-weapons",
+			"label": "Zbraně",
+			"system": "CoC7",
+			"path": "./packs/coc-rj-kompendia_weapons.db",
+			"entity": "Item"
+		},
+		{
+			"name": "coc-rj-kompendia-napoveda",
+			"label": "Nápověda",
+			"system": "CoC7",
+			"path": "./packs/coc-rj-kompendia_napoveda.db",
+			"entity": "JournalEntry"
+		},
+		{
+			"name": "coc-rj-kompendia-rolltable",
+			"label": "Roll tabulky",
+			"system": "CoC7",
+			"path": "./packs/coc-rj-kompendia_rolltable.db",
+			"entity": "RollTable"
+		}
+	]
+}
